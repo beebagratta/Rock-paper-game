@@ -17,13 +17,13 @@ main h1{
 
 }
 .choice{
-    width:300px;
-    height: 300px;
+    width:250px;
+    height: 200px;
 
 }
 .choice img{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 200px;
 
     border-radius: 50%;
 }
