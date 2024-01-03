@@ -21,7 +21,7 @@ let compchoice = () => {
 };
 
 const drawgame = () => {
-  console.log("It was draw");
+
 };
 
 const playgame = (userchoice) => {
@@ -57,8 +57,7 @@ const playgame = (userchoice) => {
 
 btn.forEach((choice) => {
   choice.addEventListener("click", () => {
-    const userchoice = choice.getAttribute("id");
-    console.log(userchoice);
+    const userchoice = choice.getAttribute("id");;
     playgame(userchoice);
   });
 });
