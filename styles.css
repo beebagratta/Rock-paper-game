@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+main h1{
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 55vh;
+    align-items: center;
+
+}
+.choice{
+    width:300px;
+    height: 300px;
+
+}
+.choice img{
+    width: 300px;
+    height: 300px;
+
+    border-radius: 50%;
+}
+
+.score{
+    width: 100vw;
+    height: 20vh;
+    text-align: center;
+    font-size: 20px;
+}
+@media (min-width: 400px) and (max-width: 500px) {
+    .container img{
+        width: 32vw;
+        height: 31vh;
+    }
+  }
+
+@media (min-width: 200px) and (max-width: 400px) {
+    .container img{
+        width: 30vw;
+        height: 18vh;
+    }
+    .container{
+        height:40vh ;
+      }
+  }
+
+
+@media (min-width: 500px) and (max-width: 554px) {
+    .container img{
+        width: 28vw;
+        height: 30vh;
+    }
+  }
